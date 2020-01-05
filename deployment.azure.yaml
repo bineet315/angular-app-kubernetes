@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
       - name: angular 
-        image: bineet/DockerAKS:#{Build.BuildId}#
+        image: bineet/dockeraks:#{Build.BuildId}#
         ports: 
         - containerPort: 80 
 --- 
